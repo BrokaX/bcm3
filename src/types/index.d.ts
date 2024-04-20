@@ -11,6 +11,8 @@ declare type CreateUserParams = {
 };
 
 declare type UpdateUserParams = {
+  clerkId: string;
+  email: string;
   firstName: string;
   lastName: string;
   username: string;
